@@ -12,6 +12,7 @@ In the TXT and CSV files, the missing values are marked by -1 (valid Sunspot Num
 New scale:
 The conventional 0.6 Zürich scale factor is not used anymore and A. Wolfer (Wolf's successor) is now defining the scale of the entire series. This puts the Sunspot Number at the scale of raw modern counts, instead of reducing it to the level of early counts by R. Wolf.
 
+![image](https://github.com/user-attachments/assets/a02d4ac3-4b40-46e7-a24a-5cf8f9157504)
 
 
 Error values:
@@ -40,9 +41,11 @@ Combined date columns into a single datetime column.
 Handled missing values by replacing -1 with interpolated values.
 3. Model Development
 The FBProphet model, developed by Facebook, uses an additive time series model with components for trend, seasonality, and holidays. It is particularly suited for datasets with missing data and outliers.
+![image](https://github.com/user-attachments/assets/fa9c999c-457e-468d-b24e-5258c82ddf6f)
 
 Key Model Features:
 Growth Models:
+![image](https://github.com/user-attachments/assets/52bf22c6-a155-4d2a-8b7c-962fef605ad9)
 
 Linear: Assumes a constant rate of change.
 Logistic: Accounts for saturating growth.
